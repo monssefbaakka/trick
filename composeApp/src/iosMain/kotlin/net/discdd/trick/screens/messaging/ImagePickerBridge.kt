@@ -1,6 +1,6 @@
-@file:OptIn(kotlinx.cinterop.ExperimentalForeignApi::class)
+﻿@file:OptIn(kotlinx.cinterop.ExperimentalForeignApi::class)
 
-package net.discdd.trick.screens.messaging
+package org.trcky.trick.screens.messaging
 
 import platform.Foundation.NSData
 

@@ -1,8 +1,8 @@
-package net.discdd.trick.metrics
+﻿package org.trcky.trick.metrics
 
 import android.util.Log
 import kotlinx.coroutines.*
-import net.discdd.trick.screens.messaging.AndroidWifiAwareManager
+import org.trcky.trick.screens.messaging.AndroidWifiAwareManager
 import java.util.concurrent.atomic.AtomicInteger
 import java.util.concurrent.atomic.AtomicLong
 

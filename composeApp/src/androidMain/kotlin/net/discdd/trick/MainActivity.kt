@@ -1,4 +1,4 @@
-package net.discdd.trick
+﻿package org.trcky.trick
 
 import android.Manifest
 import android.content.Context
@@ -16,9 +16,9 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.core.content.ContextCompat
-import net.discdd.trick.metrics.StressTestReceiver
-import net.discdd.trick.screens.messaging.WifiAwareServiceImpl
-import net.discdd.trick.signal.SignalSessionManager
+import org.trcky.trick.metrics.StressTestReceiver
+import org.trcky.trick.screens.messaging.WifiAwareServiceImpl
+import org.trcky.trick.signal.SignalSessionManager
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.get
 

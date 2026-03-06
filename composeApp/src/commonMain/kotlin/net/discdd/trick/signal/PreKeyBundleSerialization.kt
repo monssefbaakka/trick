@@ -1,4 +1,4 @@
-package net.discdd.trick.signal
+﻿package org.trcky.trick.signal
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString

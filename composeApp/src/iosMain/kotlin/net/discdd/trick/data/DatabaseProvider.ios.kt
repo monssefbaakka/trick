@@ -1,7 +1,7 @@
-package net.discdd.trick.data
+﻿package org.trcky.trick.data
 
 import app.cash.sqldelight.driver.native.NativeSqliteDriver
-import net.discdd.trick.TrickDatabase
+import org.trcky.trick.TrickDatabase
 
 actual object DatabaseProvider {
     private var database: TrickDatabase? = null

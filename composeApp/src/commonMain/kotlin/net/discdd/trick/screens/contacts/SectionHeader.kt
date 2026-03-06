@@ -1,4 +1,4 @@
-package net.discdd.trick.screens.contacts
+﻿package org.trcky.trick.screens.contacts
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth

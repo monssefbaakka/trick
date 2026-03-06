@@ -1,4 +1,4 @@
-package net.discdd.trick.screens
+﻿package org.trcky.trick.screens
 
 import android.graphics.Bitmap
 import android.graphics.Color

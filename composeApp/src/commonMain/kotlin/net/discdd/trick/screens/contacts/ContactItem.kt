@@ -1,4 +1,4 @@
-package net.discdd.trick.screens.contacts
+﻿package org.trcky.trick.screens.contacts
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -23,8 +23,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import net.discdd.trick.contacts.TrickContact
-import net.discdd.trick.data.currentTimeMillis
+import org.trcky.trick.contacts.TrickContact
+import org.trcky.trick.data.currentTimeMillis
 
 /**
  * A single contact item in the contacts list.

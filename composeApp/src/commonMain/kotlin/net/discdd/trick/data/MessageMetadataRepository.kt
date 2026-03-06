@@ -1,4 +1,4 @@
-package net.discdd.trick.data
+﻿package org.trcky.trick.data
 
 import app.cash.sqldelight.coroutines.asFlow
 import app.cash.sqldelight.coroutines.mapToList
@@ -6,7 +6,7 @@ import app.cash.sqldelight.coroutines.mapToOneOrNull
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
-import net.discdd.trick.TrickDatabase
+import org.trcky.trick.TrickDatabase
 
 /**
  * Domain model for message metadata.
@@ -114,7 +114,7 @@ class MessageMetadataRepositoryImpl(
     /**
      * Map SQLDelight MessageMetadata to domain MessageMetadata.
      */
-    private fun net.discdd.trick.MessageMetadata.toDomain(): MessageMetadata {
+    private fun org.trcky.trick.MessageMetadata.toDomain(): MessageMetadata {
         return MessageMetadata(
             shortId = short_id,
             lastMessageAt = last_message_at,

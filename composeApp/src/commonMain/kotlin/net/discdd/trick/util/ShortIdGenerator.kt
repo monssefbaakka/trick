@@ -1,7 +1,7 @@
-package net.discdd.trick.util
+﻿package org.trcky.trick.util
 
-import net.discdd.trick.libsignal.PublicKey
-import net.discdd.trick.security.toHexString
+import org.trcky.trick.libsignal.PublicKey
+import org.trcky.trick.security.toHexString
 
 /**
  * Utility for generating short IDs from public keys.

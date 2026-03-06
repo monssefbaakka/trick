@@ -1,9 +1,9 @@
-@file:OptIn(kotlinx.cinterop.ExperimentalForeignApi::class)
+﻿@file:OptIn(kotlinx.cinterop.ExperimentalForeignApi::class)
 
-package net.discdd.trick.signal
+package org.trcky.trick.signal
 
 import kotlinx.cinterop.*
-import net.discdd.trick.libsignal.bridge.*
+import org.trcky.trick.libsignal.bridge.*
 
 /**
  * iOS implementation of SignalNativeBridge using cinterop with the

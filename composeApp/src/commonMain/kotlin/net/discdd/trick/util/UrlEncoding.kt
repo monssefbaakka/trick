@@ -1,4 +1,4 @@
-package net.discdd.trick.util
+﻿package org.trcky.trick.util
 
 /**
  * URL encode a string (platform-specific).

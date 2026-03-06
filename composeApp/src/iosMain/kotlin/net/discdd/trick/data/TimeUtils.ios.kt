@@ -1,4 +1,4 @@
-package net.discdd.trick.data
+﻿package org.trcky.trick.data
 
 import platform.Foundation.NSDate
 import platform.Foundation.timeIntervalSince1970

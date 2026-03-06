@@ -1,4 +1,4 @@
-package net.discdd.trick.contacts
+﻿package org.trcky.trick.contacts
 
 /**
  * Data class representing a contact that has distributed keys with the user.

@@ -1,4 +1,4 @@
-package net.discdd.trick.metrics
+﻿package org.trcky.trick.metrics
 
 /**
  * Platform-agnostic metrics collection interface.

@@ -1,12 +1,12 @@
-package net.discdd.trick.signal
+﻿package org.trcky.trick.signal
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import net.discdd.trick.TrickDatabase
-import net.discdd.trick.data.currentTimeMillis
-import net.discdd.trick.metrics.MetricsCollector
+import org.trcky.trick.TrickDatabase
+import org.trcky.trick.data.currentTimeMillis
+import org.trcky.trick.metrics.MetricsCollector
 
 /**
  * Encryption result from Signal protocol

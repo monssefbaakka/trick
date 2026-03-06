@@ -1,4 +1,4 @@
-package net.discdd.trick.screens.messaging
+﻿package org.trcky.trick.screens.messaging
 
 import android.net.wifi.aware.PeerHandle
 import android.util.Log

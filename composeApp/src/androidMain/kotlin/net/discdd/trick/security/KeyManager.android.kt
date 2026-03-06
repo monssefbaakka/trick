@@ -1,14 +1,14 @@
-package net.discdd.trick.security
+﻿package org.trcky.trick.security
 
 import android.content.Context
 import android.security.keystore.KeyGenParameterSpec
 import android.security.keystore.KeyProperties
 import android.util.Base64
 import android.util.Log
-import net.discdd.trick.libsignal.IdentityKeyPair
-import net.discdd.trick.libsignal.PrivateKey
-import net.discdd.trick.libsignal.PublicKey
-import net.discdd.trick.libsignal.createLibSignalManager
+import org.trcky.trick.libsignal.IdentityKeyPair
+import org.trcky.trick.libsignal.PrivateKey
+import org.trcky.trick.libsignal.PublicKey
+import org.trcky.trick.libsignal.createLibSignalManager
 import java.security.KeyStore
 import javax.crypto.Cipher
 import javax.crypto.KeyGenerator

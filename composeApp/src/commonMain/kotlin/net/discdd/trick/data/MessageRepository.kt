@@ -1,12 +1,12 @@
-package net.discdd.trick.data
+﻿package org.trcky.trick.data
 
 import app.cash.sqldelight.coroutines.asFlow
 import app.cash.sqldelight.coroutines.mapToList
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
-import net.discdd.trick.TrickDatabase
-import net.discdd.trick.screens.messaging.MessageType
+import org.trcky.trick.TrickDatabase
+import org.trcky.trick.screens.messaging.MessageType
 
 /**
  * Repository interface for message persistence operations.
@@ -62,7 +62,7 @@ class MessageRepositoryImpl(
         database.trickDatabaseQueries.deleteMessagesByShortId(shortId)
     }
 
-    private fun net.discdd.trick.Message.toDomain(): PersistedMessage {
+    private fun org.trcky.trick.Message.toDomain(): PersistedMessage {
         return PersistedMessage(
             id = id,
             shortId = short_id,

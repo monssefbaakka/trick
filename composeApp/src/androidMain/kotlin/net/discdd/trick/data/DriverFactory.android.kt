@@ -1,9 +1,9 @@
-package net.discdd.trick.data
+﻿package org.trcky.trick.data
 
 import android.content.Context
 import app.cash.sqldelight.driver.android.AndroidSqliteDriver
 import app.cash.sqldelight.db.SqlDriver
-import net.discdd.trick.TrickDatabase
+import org.trcky.trick.TrickDatabase
 
 actual class DriverFactory(private val context: Context) {
     actual fun createDriver(): SqlDriver {

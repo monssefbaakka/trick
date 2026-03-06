@@ -1,6 +1,6 @@
-package net.discdd.trick.data
+﻿package org.trcky.trick.data
 
-import net.discdd.trick.screens.messaging.MessageType
+import org.trcky.trick.screens.messaging.MessageType
 
 /**
  * Domain model mapping to the DB Message table.

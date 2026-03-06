@@ -1,4 +1,4 @@
-package net.discdd.trick.contacts
+﻿package org.trcky.trick.contacts
 
 import android.app.Activity
 import android.content.Context

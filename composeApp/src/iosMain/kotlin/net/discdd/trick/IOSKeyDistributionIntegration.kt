@@ -1,6 +1,6 @@
-@file:OptIn(kotlin.io.encoding.ExperimentalEncodingApi::class)
+﻿@file:OptIn(kotlin.io.encoding.ExperimentalEncodingApi::class)
 
-package net.discdd.trick
+package org.trcky.trick
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
@@ -14,20 +14,20 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
-import net.discdd.trick.contacts.IOSContactPickerScreen
-import net.discdd.trick.contacts.NativeContactsManager
-import net.discdd.trick.libsignal.createLibSignalManager
-import net.discdd.trick.messaging.KeyDistributionBundle
-import net.discdd.trick.screens.IOSMultiQRScannerScreen
-import net.discdd.trick.screens.KeyDistributionScreen
-import net.discdd.trick.security.KeyDistributionPayload
-import net.discdd.trick.security.KeyManager
-import net.discdd.trick.security.QRKeyDistribution
-import net.discdd.trick.security.TRCKY_ORG_BASE_URL
-import net.discdd.trick.signal.PreKeyBundleData
-import net.discdd.trick.signal.SignalSessionManager
-import net.discdd.trick.screens.messaging.WifiAwarePairingPresenter
-import net.discdd.trick.util.ShortIdGenerator
+import org.trcky.trick.contacts.IOSContactPickerScreen
+import org.trcky.trick.contacts.NativeContactsManager
+import org.trcky.trick.libsignal.createLibSignalManager
+import org.trcky.trick.messaging.KeyDistributionBundle
+import org.trcky.trick.screens.IOSMultiQRScannerScreen
+import org.trcky.trick.screens.KeyDistributionScreen
+import org.trcky.trick.security.KeyDistributionPayload
+import org.trcky.trick.security.KeyManager
+import org.trcky.trick.security.QRKeyDistribution
+import org.trcky.trick.security.TRCKY_ORG_BASE_URL
+import org.trcky.trick.signal.PreKeyBundleData
+import org.trcky.trick.signal.SignalSessionManager
+import org.trcky.trick.screens.messaging.WifiAwarePairingPresenter
+import org.trcky.trick.util.ShortIdGenerator
 import okio.ByteString.Companion.toByteString
 import org.koin.compose.koinInject
 import kotlin.io.encoding.Base64

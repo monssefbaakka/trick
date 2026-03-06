@@ -1,12 +1,12 @@
-package net.discdd.trick
+﻿package org.trcky.trick
 
 import android.app.Application
 import android.content.Context
-import net.discdd.trick.contacts.NativeContactsManager
-import net.discdd.trick.data.DatabaseProvider
-import net.discdd.trick.data.ImageStorage
-import net.discdd.trick.di.androidModule
-import net.discdd.trick.di.initKoin
+import org.trcky.trick.contacts.NativeContactsManager
+import org.trcky.trick.data.DatabaseProvider
+import org.trcky.trick.data.ImageStorage
+import org.trcky.trick.di.androidModule
+import org.trcky.trick.di.initKoin
 import org.koin.dsl.module
 
 class MessagingApp : Application() {

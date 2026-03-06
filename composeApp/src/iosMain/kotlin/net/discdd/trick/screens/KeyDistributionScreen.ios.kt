@@ -1,4 +1,4 @@
-package net.discdd.trick.screens
+﻿package org.trcky.trick.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box

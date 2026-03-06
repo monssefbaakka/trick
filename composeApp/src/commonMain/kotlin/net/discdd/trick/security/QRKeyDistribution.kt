@@ -1,11 +1,11 @@
-package net.discdd.trick.security
+﻿package org.trcky.trick.security
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
-import net.discdd.trick.libsignal.LibSignalManager
-import net.discdd.trick.libsignal.PublicKey
-import net.discdd.trick.util.ShortIdGenerator
+import org.trcky.trick.libsignal.LibSignalManager
+import org.trcky.trick.libsignal.PublicKey
+import org.trcky.trick.util.ShortIdGenerator
 
 /**
  * Payload structure for QR code key distribution.

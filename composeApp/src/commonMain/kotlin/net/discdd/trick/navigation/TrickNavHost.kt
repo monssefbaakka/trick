@@ -1,4 +1,4 @@
-package net.discdd.trick.navigation
+﻿package org.trcky.trick.navigation
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -24,14 +24,14 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import kotlinx.coroutines.delay
-import net.discdd.trick.data.MessagePersistenceManager
-import net.discdd.trick.messaging.ChatMessage
-import net.discdd.trick.signal.SignalSessionManager
-import net.discdd.trick.screens.chat.ChatScreen
-import net.discdd.trick.screens.contacts.ContactsListScreen
-import net.discdd.trick.screens.messaging.WifiAwareService
+import org.trcky.trick.data.MessagePersistenceManager
+import org.trcky.trick.messaging.ChatMessage
+import org.trcky.trick.signal.SignalSessionManager
+import org.trcky.trick.screens.chat.ChatScreen
+import org.trcky.trick.screens.contacts.ContactsListScreen
+import org.trcky.trick.screens.messaging.WifiAwareService
 import androidx.savedstate.read
-import net.discdd.trick.util.urlDecode
+import org.trcky.trick.util.urlDecode
 import org.koin.compose.koinInject
 
 /**

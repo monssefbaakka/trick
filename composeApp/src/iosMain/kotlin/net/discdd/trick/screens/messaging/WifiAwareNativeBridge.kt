@@ -1,6 +1,6 @@
-@file:OptIn(kotlinx.cinterop.ExperimentalForeignApi::class, kotlinx.cinterop.BetaInteropApi::class)
+﻿@file:OptIn(kotlinx.cinterop.ExperimentalForeignApi::class, kotlinx.cinterop.BetaInteropApi::class)
 
-package net.discdd.trick.screens.messaging
+package org.trcky.trick.screens.messaging
 
 import kotlinx.cinterop.addressOf
 import kotlinx.cinterop.allocArrayOf

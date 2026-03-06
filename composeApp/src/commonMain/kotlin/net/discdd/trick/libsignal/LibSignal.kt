@@ -1,6 +1,6 @@
-package net.discdd.trick.libsignal
+﻿package org.trcky.trick.libsignal
 
-import net.discdd.trick.signal.SignalNativeBridge
+import org.trcky.trick.signal.SignalNativeBridge
 
 /**
  * KMP wrapper for libsignal functionality.

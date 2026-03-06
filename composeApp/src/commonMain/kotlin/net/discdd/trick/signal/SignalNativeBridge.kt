@@ -1,4 +1,4 @@
-package net.discdd.trick.signal
+﻿package org.trcky.trick.signal
 
 /**
  * Bridge to the Rust trick-signal-ffi crate.

@@ -1,4 +1,4 @@
-package net.discdd.trick.di
+﻿package org.trcky.trick.di
 
 import org.koin.dsl.module
 

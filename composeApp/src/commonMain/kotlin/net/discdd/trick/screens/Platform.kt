@@ -1,3 +1,3 @@
-package net.discdd.trick.screens
+﻿package org.trcky.trick.screens
 
 expect fun isIos(): Boolean

@@ -1,8 +1,8 @@
-package net.discdd.trick.navigation
+﻿package org.trcky.trick.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import net.discdd.trick.screens.messaging.WifiAwareService
+import org.trcky.trick.screens.messaging.WifiAwareService
 
 /**
  * Android implementation - device pairing is not needed on Android.

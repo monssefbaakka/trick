@@ -1,4 +1,4 @@
-package net.discdd.trick.util
+﻿package org.trcky.trick.util
 
 /**
  * RFC 4648 Base32 encoding/decoding utility.

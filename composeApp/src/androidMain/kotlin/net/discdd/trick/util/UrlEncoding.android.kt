@@ -1,4 +1,4 @@
-package net.discdd.trick.util
+﻿package org.trcky.trick.util
 
 import java.net.URLDecoder
 import java.net.URLEncoder

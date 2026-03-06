@@ -1,4 +1,4 @@
-package net.discdd.trick.signal
+﻿package org.trcky.trick.signal
 
 /**
  * Android implementation of SignalNativeBridge using JNI.

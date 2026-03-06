@@ -1,4 +1,4 @@
-package net.discdd.trick
+﻿package org.trcky.trick
 
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -6,17 +6,17 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.window.ComposeUIViewController
-import net.discdd.trick.contacts.NativeContactsManager
-import net.discdd.trick.data.DatabaseProvider
-import net.discdd.trick.data.ImageStorage
-import net.discdd.trick.di.initKoin
-import net.discdd.trick.screens.messaging.ImagePickerBridge
-import net.discdd.trick.screens.messaging.ImagePickerCallback
-import net.discdd.trick.screens.messaging.WifiAwarePairingPresenter
-import net.discdd.trick.screens.messaging.WifiAwareNativeBridge
-import net.discdd.trick.screens.messaging.WifiAwareServiceImpl
-import net.discdd.trick.screens.messaging.toByteArray
-import net.discdd.trick.signal.SignalSessionManager
+import org.trcky.trick.contacts.NativeContactsManager
+import org.trcky.trick.data.DatabaseProvider
+import org.trcky.trick.data.ImageStorage
+import org.trcky.trick.di.initKoin
+import org.trcky.trick.screens.messaging.ImagePickerBridge
+import org.trcky.trick.screens.messaging.ImagePickerCallback
+import org.trcky.trick.screens.messaging.WifiAwarePairingPresenter
+import org.trcky.trick.screens.messaging.WifiAwareNativeBridge
+import org.trcky.trick.screens.messaging.WifiAwareServiceImpl
+import org.trcky.trick.screens.messaging.toByteArray
+import org.trcky.trick.signal.SignalSessionManager
 import org.koin.mp.KoinPlatform
 import org.koin.dsl.module
 import platform.Foundation.NSData

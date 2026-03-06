@@ -1,4 +1,4 @@
-package net.discdd.trick.data
+﻿package org.trcky.trick.data
 
 import kotlinx.cinterop.ExperimentalForeignApi
 import kotlinx.cinterop.addressOf

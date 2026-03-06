@@ -1,4 +1,4 @@
-package net.discdd.trick.screens.contacts
+﻿package org.trcky.trick.screens.contacts
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -38,8 +38,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import net.discdd.trick.contacts.TrickContact
-import net.discdd.trick.theme.LocalAppTheme
+import org.trcky.trick.contacts.TrickContact
+import org.trcky.trick.theme.LocalAppTheme
 import org.koin.compose.viewmodel.koinViewModel
 
 /**

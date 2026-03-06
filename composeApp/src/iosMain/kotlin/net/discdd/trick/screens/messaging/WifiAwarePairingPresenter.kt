@@ -1,4 +1,4 @@
-package net.discdd.trick.screens.messaging
+﻿package org.trcky.trick.screens.messaging
 
 /**
  * Protocol for presenting the native WiFi Aware pairing UI on iOS.

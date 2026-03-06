@@ -1,4 +1,4 @@
-package net.discdd.trick
+﻿package org.trcky.trick
 
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
@@ -8,14 +8,14 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.navigation.compose.rememberNavController
-import net.discdd.trick.navigation.KeyDistributionContent
-import net.discdd.trick.navigation.OnPickImageRequest
-import net.discdd.trick.navigation.TrickNavHost
-import net.discdd.trick.screens.UnsupportedDeviceScreen
-import net.discdd.trick.screens.messaging.WifiAwareService
-import net.discdd.trick.theme.AppThemeState
-import net.discdd.trick.theme.LocalAppTheme
-import net.discdd.trick.theme.TrickTheme
+import org.trcky.trick.navigation.KeyDistributionContent
+import org.trcky.trick.navigation.OnPickImageRequest
+import org.trcky.trick.navigation.TrickNavHost
+import org.trcky.trick.screens.UnsupportedDeviceScreen
+import org.trcky.trick.screens.messaging.WifiAwareService
+import org.trcky.trick.theme.AppThemeState
+import org.trcky.trick.theme.LocalAppTheme
+import org.trcky.trick.theme.TrickTheme
 
 @Composable
 fun App(

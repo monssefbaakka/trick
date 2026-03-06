@@ -1,6 +1,6 @@
-@file:OptIn(kotlinx.cinterop.ExperimentalForeignApi::class, kotlin.io.encoding.ExperimentalEncodingApi::class)
+﻿@file:OptIn(kotlinx.cinterop.ExperimentalForeignApi::class, kotlin.io.encoding.ExperimentalEncodingApi::class)
 
-package net.discdd.trick.screens
+package org.trcky.trick.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons

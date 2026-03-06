@@ -1,6 +1,6 @@
-@file:OptIn(kotlin.io.encoding.ExperimentalEncodingApi::class)
+﻿@file:OptIn(kotlin.io.encoding.ExperimentalEncodingApi::class)
 
-package net.discdd.trick
+package org.trcky.trick
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -14,22 +14,22 @@ import androidx.compose.ui.platform.LocalContext
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import net.discdd.trick.contacts.ContactPickerResult
-import net.discdd.trick.contacts.NativeContactsManager
-import net.discdd.trick.contacts.rememberContactPickerLauncher
-import net.discdd.trick.libsignal.createLibSignalManager
-import net.discdd.trick.messaging.KeyDistributionBundle
-import net.discdd.trick.screens.KeyDistributionScreen
-import net.discdd.trick.screens.MultiQRScannerScreen
-import net.discdd.trick.screens.QRScannerScreen
-import net.discdd.trick.security.KeyDistributionPayload
-import net.discdd.trick.security.KeyDistributionQRResult
-import net.discdd.trick.security.KeyManager
-import net.discdd.trick.security.QRKeyDistribution
-import net.discdd.trick.security.TRCKY_ORG_BASE_URL
-import net.discdd.trick.signal.PreKeyBundleData
-import net.discdd.trick.signal.SignalSessionManager
-import net.discdd.trick.util.ShortIdGenerator
+import org.trcky.trick.contacts.ContactPickerResult
+import org.trcky.trick.contacts.NativeContactsManager
+import org.trcky.trick.contacts.rememberContactPickerLauncher
+import org.trcky.trick.libsignal.createLibSignalManager
+import org.trcky.trick.messaging.KeyDistributionBundle
+import org.trcky.trick.screens.KeyDistributionScreen
+import org.trcky.trick.screens.MultiQRScannerScreen
+import org.trcky.trick.screens.QRScannerScreen
+import org.trcky.trick.security.KeyDistributionPayload
+import org.trcky.trick.security.KeyDistributionQRResult
+import org.trcky.trick.security.KeyManager
+import org.trcky.trick.security.QRKeyDistribution
+import org.trcky.trick.security.TRCKY_ORG_BASE_URL
+import org.trcky.trick.signal.PreKeyBundleData
+import org.trcky.trick.signal.SignalSessionManager
+import org.trcky.trick.util.ShortIdGenerator
 import okio.ByteString.Companion.toByteString
 import org.koin.core.context.GlobalContext
 import kotlin.io.encoding.Base64

@@ -1,4 +1,4 @@
-package net.discdd.trick.data
+﻿package org.trcky.trick.data
 
 /**
  * Get current time in milliseconds (platform-specific).

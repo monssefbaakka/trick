@@ -1,6 +1,6 @@
-@file:OptIn(kotlinx.cinterop.ExperimentalForeignApi::class, kotlinx.cinterop.BetaInteropApi::class)
+﻿@file:OptIn(kotlinx.cinterop.ExperimentalForeignApi::class, kotlinx.cinterop.BetaInteropApi::class)
 
-package net.discdd.trick.signal
+package org.trcky.trick.signal
 
 import kotlinx.cinterop.*
 import platform.CoreFoundation.CFDictionaryAddValue
@@ -26,7 +26,7 @@ import kotlin.random.Random
 actual class SecureKeyStorage actual constructor() {
 
     companion object {
-        private const val KEYCHAIN_SERVICE = "net.discdd.trick.signal"
+        private const val KEYCHAIN_SERVICE = "org.trcky.trick.signal"
         private const val KEYCHAIN_ACCOUNT = "signal_identity_master_key"
         private const val KEY_SIZE = 32 // 256-bit AES
     }

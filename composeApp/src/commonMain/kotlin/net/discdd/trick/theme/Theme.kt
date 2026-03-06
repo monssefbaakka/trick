@@ -1,4 +1,4 @@
-package net.discdd.trick.theme
+﻿package org.trcky.trick.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Typography

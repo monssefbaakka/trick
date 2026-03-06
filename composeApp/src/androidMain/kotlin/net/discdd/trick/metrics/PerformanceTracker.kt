@@ -1,4 +1,4 @@
-package net.discdd.trick.metrics
+﻿package org.trcky.trick.metrics
 
 import android.os.Build
 import android.util.Log

@@ -1,6 +1,6 @@
-@file:OptIn(kotlin.io.encoding.ExperimentalEncodingApi::class)
+﻿@file:OptIn(kotlin.io.encoding.ExperimentalEncodingApi::class)
 
-package net.discdd.trick.screens
+package org.trcky.trick.screens
 
 import android.Manifest
 import android.util.Log

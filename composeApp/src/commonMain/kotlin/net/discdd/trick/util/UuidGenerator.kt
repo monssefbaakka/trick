@@ -1,3 +1,3 @@
-package net.discdd.trick.util
+﻿package org.trcky.trick.util
 
 expect fun generateUuid(): String

@@ -1,4 +1,4 @@
-package net.discdd.trick.screens.contacts
+﻿package org.trcky.trick.screens.contacts
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -7,9 +7,9 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
-import net.discdd.trick.contacts.NativeContactsManager
-import net.discdd.trick.contacts.TrickContact
-import net.discdd.trick.data.MessageMetadataRepository
+import org.trcky.trick.contacts.NativeContactsManager
+import org.trcky.trick.contacts.TrickContact
+import org.trcky.trick.data.MessageMetadataRepository
 
 /**
  * ViewModel for the Contacts List screen.

@@ -1,6 +1,6 @@
-package net.discdd.trick.navigation
+﻿package org.trcky.trick.navigation
 
-import net.discdd.trick.util.urlEncode
+import org.trcky.trick.util.urlEncode
 
 /**
  * Sealed class defining app screen routes for NavHost.

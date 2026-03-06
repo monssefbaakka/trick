@@ -1,11 +1,11 @@
-package net.discdd.trick.data
+﻿package org.trcky.trick.data
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-import net.discdd.trick.TrickDatabase
-import net.discdd.trick.contacts.NativeContactsManager
-import net.discdd.trick.screens.messaging.MessageType
-import net.discdd.trick.util.generateUuid
+import org.trcky.trick.TrickDatabase
+import org.trcky.trick.contacts.NativeContactsManager
+import org.trcky.trick.screens.messaging.MessageType
+import org.trcky.trick.util.generateUuid
 
 /**
  * Central class that handles persistence for both sent and received messages.

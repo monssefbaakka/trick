@@ -1,4 +1,4 @@
-package net.discdd.trick.contacts
+﻿package org.trcky.trick.contacts
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement

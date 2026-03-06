@@ -1,4 +1,4 @@
-package net.discdd.trick.screens.chat
+﻿package org.trcky.trick.screens.chat
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -45,10 +45,10 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
-import net.discdd.trick.screens.messaging.Message
-import net.discdd.trick.screens.messaging.MessageBubble
-import net.discdd.trick.screens.messaging.rememberImageBitmap
-import net.discdd.trick.theme.LocalAppTheme
+import org.trcky.trick.screens.messaging.Message
+import org.trcky.trick.screens.messaging.MessageBubble
+import org.trcky.trick.screens.messaging.rememberImageBitmap
+import org.trcky.trick.theme.LocalAppTheme
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 

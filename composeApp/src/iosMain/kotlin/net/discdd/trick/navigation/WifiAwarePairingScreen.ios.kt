@@ -1,7 +1,7 @@
-package net.discdd.trick.navigation
+﻿package org.trcky.trick.navigation
 
 import androidx.compose.runtime.Composable
-import net.discdd.trick.screens.messaging.WifiAwareService
+import org.trcky.trick.screens.messaging.WifiAwareService
 
 /**
  * iOS implementation - presents native WiFi Aware pairing UI.

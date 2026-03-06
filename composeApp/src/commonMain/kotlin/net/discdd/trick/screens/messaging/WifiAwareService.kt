@@ -1,6 +1,6 @@
-package net.discdd.trick.screens.messaging
+﻿package org.trcky.trick.screens.messaging
 
-import net.discdd.trick.messaging.ChatMessage
+import org.trcky.trick.messaging.ChatMessage
 
 interface WifiAwareService {
     fun startDiscovery(onMessageReceived: (ChatMessage, peerId: String?) -> Unit)

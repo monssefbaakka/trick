@@ -1,16 +1,16 @@
-@file:OptIn(kotlinx.cinterop.ExperimentalForeignApi::class)
+﻿@file:OptIn(kotlinx.cinterop.ExperimentalForeignApi::class)
 
-package net.discdd.trick.screens.messaging
+package org.trcky.trick.screens.messaging
 
 import kotlinx.coroutines.*
-import net.discdd.trick.data.currentTimeMillis
-import net.discdd.trick.messaging.ChatMessage
-import net.discdd.trick.messaging.PhotoContent
-import net.discdd.trick.messaging.TextContent
-import net.discdd.trick.signal.SignalError
-import net.discdd.trick.signal.SignalSessionManager
-import net.discdd.trick.util.generateUuid
-import net.discdd.trick.util.sha256
+import org.trcky.trick.data.currentTimeMillis
+import org.trcky.trick.messaging.ChatMessage
+import org.trcky.trick.messaging.PhotoContent
+import org.trcky.trick.messaging.TextContent
+import org.trcky.trick.signal.SignalError
+import org.trcky.trick.signal.SignalSessionManager
+import org.trcky.trick.util.generateUuid
+import org.trcky.trick.util.sha256
 import okio.ByteString.Companion.toByteString
 import platform.Foundation.NSData
 import platform.UIKit.UIDevice

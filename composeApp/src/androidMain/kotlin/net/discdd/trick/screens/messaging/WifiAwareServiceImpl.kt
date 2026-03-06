@@ -1,9 +1,9 @@
-package net.discdd.trick.screens.messaging
+﻿package org.trcky.trick.screens.messaging
 
 import android.content.Context
 import android.util.Log
-import net.discdd.trick.metrics.StressTestReceiver
-import net.discdd.trick.signal.SignalSessionManager
+import org.trcky.trick.metrics.StressTestReceiver
+import org.trcky.trick.signal.SignalSessionManager
 
 class WifiAwareServiceImpl(
     private val context: Context,
@@ -19,7 +19,7 @@ class WifiAwareServiceImpl(
         Log.d("WifiAwareServiceImpl", "Manager registered successfully for stress tests")
     }
 
-    override fun startDiscovery(onMessageReceived: (net.discdd.trick.messaging.ChatMessage, String?) -> Unit) {
+    override fun startDiscovery(onMessageReceived: (org.trcky.trick.messaging.ChatMessage, String?) -> Unit) {
         Log.d("WifiAwareServiceImpl", "Starting discovery with connection-based networking")
 
         manager.startDiscovery(

@@ -1,4 +1,4 @@
-package net.discdd.trick.screens.messaging
+﻿package org.trcky.trick.screens.messaging
 
 import android.Manifest
 import android.content.Context
@@ -9,11 +9,11 @@ import android.os.Handler
 import android.os.Looper
 import android.util.Log
 import androidx.core.content.ContextCompat
-import net.discdd.trick.messaging.ChatMessage
-import net.discdd.trick.messaging.PhotoContent
-import net.discdd.trick.messaging.TextContent
-import net.discdd.trick.signal.SignalError
-import net.discdd.trick.signal.SignalSessionManager
+import org.trcky.trick.messaging.ChatMessage
+import org.trcky.trick.messaging.PhotoContent
+import org.trcky.trick.messaging.TextContent
+import org.trcky.trick.signal.SignalError
+import org.trcky.trick.signal.SignalSessionManager
 import java.io.DataInputStream
 import java.io.DataOutputStream
 import java.net.InetSocketAddress
@@ -23,7 +23,7 @@ import java.util.concurrent.atomic.AtomicBoolean
 import java.util.concurrent.atomic.AtomicReference
 import kotlinx.coroutines.*
 import kotlin.coroutines.cancellation.CancellationException
-import net.discdd.trick.metrics.PerformanceTracker
+import org.trcky.trick.metrics.PerformanceTracker
 import okio.ByteString.Companion.toByteString
 
 /**

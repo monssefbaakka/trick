@@ -1,4 +1,4 @@
-package net.discdd.trick.signal
+﻿package org.trcky.trick.signal
 
 import android.security.keystore.KeyGenParameterSpec
 import android.security.keystore.KeyProperties

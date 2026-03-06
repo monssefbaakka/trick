@@ -1,6 +1,6 @@
-package net.discdd.trick.screens.contacts
+﻿package org.trcky.trick.screens.contacts
 
-import net.discdd.trick.contacts.TrickContact
+import org.trcky.trick.contacts.TrickContact
 
 /**
  * UI state for the contacts list screen with sectioned contacts.

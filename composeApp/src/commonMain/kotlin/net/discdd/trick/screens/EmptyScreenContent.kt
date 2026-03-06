@@ -1,4 +1,4 @@
-package net.discdd.trick.screens
+﻿package org.trcky.trick.screens
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.material3.Text

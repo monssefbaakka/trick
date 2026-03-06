@@ -1,4 +1,4 @@
-package net.discdd.trick.screens.messaging
+﻿package org.trcky.trick.screens.messaging
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable

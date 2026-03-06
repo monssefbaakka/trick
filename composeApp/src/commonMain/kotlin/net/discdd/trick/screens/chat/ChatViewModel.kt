@@ -1,4 +1,4 @@
-package net.discdd.trick.screens.chat
+﻿package org.trcky.trick.screens.chat
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -8,12 +8,12 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
-import net.discdd.trick.contacts.NativeContactsManager
-import net.discdd.trick.contacts.TrickContact
-import net.discdd.trick.data.ImageStorage
-import net.discdd.trick.data.MessageRepository
-import net.discdd.trick.screens.messaging.Message
-import net.discdd.trick.screens.messaging.MessageType
+import org.trcky.trick.contacts.NativeContactsManager
+import org.trcky.trick.contacts.TrickContact
+import org.trcky.trick.data.ImageStorage
+import org.trcky.trick.data.MessageRepository
+import org.trcky.trick.screens.messaging.Message
+import org.trcky.trick.screens.messaging.MessageType
 
 /**
  * ViewModel for the per-contact Chat screen.

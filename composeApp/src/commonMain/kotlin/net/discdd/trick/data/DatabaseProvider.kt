@@ -1,6 +1,6 @@
-package net.discdd.trick.data
+﻿package org.trcky.trick.data
 
-import net.discdd.trick.TrickDatabase
+import org.trcky.trick.TrickDatabase
 
 /**
  * Platform-specific database provider

@@ -1,4 +1,4 @@
-package net.discdd.trick.signal
+﻿package org.trcky.trick.signal
 
 /**
  * Platform-specific secure storage for private keys.

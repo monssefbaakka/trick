@@ -1,10 +1,10 @@
-package net.discdd.trick.metrics
+﻿package org.trcky.trick.metrics
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.util.Log
-import net.discdd.trick.screens.messaging.AndroidWifiAwareManager
+import org.trcky.trick.screens.messaging.AndroidWifiAwareManager
 import java.util.concurrent.atomic.AtomicReference
 
 /**
@@ -14,26 +14,26 @@ import java.util.concurrent.atomic.AtomicReference
  * the full device ID from the connection pool. If omitted, uses the first connected peer.
  *
  * Usage — burst test:
- *   adb shell am broadcast -a net.discdd.trick.STRESS_TEST \
+ *   adb shell am broadcast -a org.trcky.trick.STRESS_TEST \
  *       --es peer_id "<short_or_full_peer_id>" \
  *       --ei text_count 100 \
  *       --ei image_count 10 \
  *       --ei image_size_kb 500
  *
  * Usage — ramp test:
- *   adb shell am broadcast -a net.discdd.trick.STRESS_TEST \
+ *   adb shell am broadcast -a org.trcky.trick.STRESS_TEST \
  *       --es peer_id "<short_or_full_peer_id>" \
  *       --es mode "ramp" \
  *       --ei ramp_max_rate 50 \
  *       --ei ramp_step_sec 5
  *
  * Usage — benchmark (varying message sizes through full E2E encrypted pipeline):
- *   adb shell am broadcast -a net.discdd.trick.STRESS_TEST \
+ *   adb shell am broadcast -a org.trcky.trick.STRESS_TEST \
  *       --es mode "benchmark" \
  *       --ei repeats 10
  *
  * Usage — concurrent message test (measures max in-flight messages):
- *   adb shell am broadcast -a net.discdd.trick.STRESS_TEST \
+ *   adb shell am broadcast -a org.trcky.trick.STRESS_TEST \
  *       --es mode "concurrent" \
  *       --ei concurrent_max 200 \
  *       --ei concurrent_start 10 \
@@ -41,14 +41,14 @@ import java.util.concurrent.atomic.AtomicReference
  *       --ei concurrent_timeout 30
  *
  * Cancel a running test:
- *   adb shell am broadcast -a net.discdd.trick.STRESS_TEST_CANCEL
+ *   adb shell am broadcast -a org.trcky.trick.STRESS_TEST_CANCEL
  */
 class StressTestReceiver : BroadcastReceiver() {
 
     companion object {
         private const val TAG = "PerfStressTest"
-        const val ACTION_STRESS_TEST = "net.discdd.trick.STRESS_TEST"
-        const val ACTION_CANCEL = "net.discdd.trick.STRESS_TEST_CANCEL"
+        const val ACTION_STRESS_TEST = "org.trcky.trick.STRESS_TEST"
+        const val ACTION_CANCEL = "org.trcky.trick.STRESS_TEST_CANCEL"
 
         /**
          * Register the [AndroidWifiAwareManager] so the receiver can create a [StressTestRunner].

@@ -1,4 +1,4 @@
-package net.discdd.trick.contacts
+﻿package org.trcky.trick.contacts
 
 import android.content.ContentProviderOperation
 import android.content.ContentResolver
@@ -21,7 +21,7 @@ import kotlinx.coroutines.flow.flowOf
  * DATA2 = publicKeyHex
  * DATA3 = deviceId (64-char hex, optional - for WiFi Aware peer matching)
  */
-private const val TRICK_MIME_TYPE = "vnd.android.cursor.item/net.discdd.trick.key"
+private const val TRICK_MIME_TYPE = "vnd.android.cursor.item/org.trcky.trick.key"
 
 /**
  * Android implementation of NativeContactsManager.

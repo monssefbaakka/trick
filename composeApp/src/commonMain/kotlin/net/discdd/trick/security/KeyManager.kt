@@ -1,7 +1,7 @@
-package net.discdd.trick.security
+﻿package org.trcky.trick.security
 
-import net.discdd.trick.libsignal.IdentityKeyPair
-import net.discdd.trick.libsignal.PublicKey
+import org.trcky.trick.libsignal.IdentityKeyPair
+import org.trcky.trick.libsignal.PublicKey
 
 /**
  * KeyManager provides secure storage and retrieval of encryption keys
